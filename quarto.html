@@ -9,28 +9,80 @@
 
 <body>
     <x3d width=' 1300px' height='620px'>
-
+        <!-- <group def='es_quarto'> -->
+        <!-- Estrutura do quarto -->
         <scene>
+            <Viewpoint id="1" position="-0.16242 -0.66701 14.98805" orientation="0.99987 0.00021 -0.01611 0.10637"
+                description="camera">
+            </Viewpoint>
             <transform>
                 <shape>
                     <appearance>
-                        <material diffuseColor='1 0 0' />
+                        <material diffuseColor='yellow' />
                     </appearance>
                     <box size='10 5 0.1'>
                     </box>
                 </shape>
             </transform>
+
             <transform translation='5 0 5' rotation='0 1 0 1.57075'>
                 <shape>
                     <appearance>
-                        <material diffuseColor='1 0 0' />
+                        <material diffuseColor='yellow' />
                     </appearance>
                     <box size='10 5 0.1'>
                     </box>
                 </shape>
             </transform>
+
+            <transform translation='-5 0 5' rotation='0 1 0 1.57075'>
+                <shape>
+                    <appearance>
+                        <material diffuseColor='yellow' />
+                    </appearance>
+                    <box size='10 5 0.1'>
+                    </box>
+                </shape>
+            </transform>
+            <transform translation='0 2.5 5' rotation='1 0 0 1.57075'>
+                <shape>
+                    <appearance>
+                        <material diffuseColor='yellow' />
+                    </appearance>
+                    <box size='10 10 0.1'>
+                    </box>
+                </shape>
+            </transform>
+
+            <transform translation='0 -2.5 5' rotation='1 0 0 1.57075'>
+                <shape>
+                    <appearance>
+                        <material diffuseColor='yellow' />
+                    </appearance>
+                    <box size='10 10 0.1'>
+                    </box>
+                </shape>
+            </transform>
+
+            <transform translation='-4.5 0 8'>
+                <shape>
+                    <appearance>
+                        <material diffuseColor='yellow' />
+                    </appearance>
+                    <box size='1 5 3.5'>
+                    </box>
+                </shape>
+            </transform>
+
+            <transform rotation='0 1 0 3.1415'>
+                <SpotLight id='spot' on="TRUE" beamWidth='0.9' color='1 1 1' cutOffAngle='0.78' location='0 0 7'
+                    radius='19'>
+                </SpotLight>
+            </transform>
         </scene>
+        <!-- </group> -->
     </x3d>
+    <button onclick="document.getElementById('1').setAttribute('set_bind','true');">1</button>
 </body>
 
 </html>
