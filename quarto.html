@@ -7,7 +7,7 @@
     <link rel=' stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css%27%3E'>
 </head>
 
-<body>
+<body style="background-color: black;">
     <x3d width=' 1300px' height='620px'>
         <!-- <group def='es_quarto'> -->
         <!-- Estrutura do quarto -->
@@ -85,6 +85,10 @@
                 <SpotLight id='spot' on="TRUE" beamWidth='0.9' color='1 1 1' cutOffAngle='0.78' location='0 0 7'
                     radius='19'>
                 </SpotLight>
+            </transform>
+
+            <transform scale = '0.5 0.5 0.5' translation = '4 0 4'>
+                <inline nameSpaceName="globo" url="globo.x3d"></inline>
             </transform>
         </scene>
         <!-- </group> -->
