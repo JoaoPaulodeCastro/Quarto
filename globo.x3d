@@ -4,8 +4,7 @@
 	<head>
 		<meta name="filename" content="globo.x3d" />
 	</head>
-	<!-- porta -->
-	<scene>""
+	<scene>
 		<shape>
 			<appearance>
 				<imageTexture url="./texturas/texture_globo.png"></imageTexture>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+	<head>
+		<meta name="filename" content="skate.x3d" />
+	</head>
+	<scene>
+		<!-- Shape -->
+		<transform rotation="0 0 1 1.57075" translation="0 1.5 0">
+			<shape>
+				<appearance>
+					<material diffuseColor="1 0 0" />
+				</appearance>
+				<cylinder radius="0.5" height="0.05" />
+			</shape>
+		</transform>
+		<shape>
+			<appearance>
+				<material diffuseColor="1 0 0" />
+			</appearance>
+			<box size="0.05 3 1" />
+		</shape>
+		<transform rotation="0 0 1 1.57075" translation="0 -1.5 0">
+			<shape>
+				<appearance>
+					<material diffuseColor="1 0 0" />
+				</appearance>
+				<cylinder radius="0.5" height="0.05" />
+			</shape>
+		</transform>
+		<!-- truck de cima -->
+		<!-- base -->
+		<transform translation="0 1 0">
+			<shape>
+				<appearance>
+					<material diffuseColor="0 1 0" />
+				</appearance>
+				<box size="0.1 0.5 0.4" />
+			</shape>
+		</transform>
+		<!-- eixo do meio -->
+		<transform translation="0 1 0" rotation="0 0 1 1.57075">
+			<shape>
+				<appearance>
+					<material diffuseColor="1 1 1" />
+				</appearance>
+				<cylinder radius="0.05" height="0.4" />
+			</shape>
+		</transform>
+		<!-- eixo das rodas -->
+		<transform translation="0.2 1 0" rotation="1 0 0 1.57075">
+			<shape>
+				<appearance>
+					<material diffuseColor="0 0 1" />
+				</appearance>
+				<cylinder radius="0.05" height="1" />
+			</shape>
+		</transform>
+		<!-- rodinhas -->
+		<transform translation="0.2 1 0.4" rotation="1 0 0 1.57075">
+			<shape>
+				<appearance>
+					<material diffuseColor="0 0 1" />
+				</appearance>
+				<cylinder radius="0.15" height="0.1" />
+			</shape>
+		</transform>
+		<transform translation="0.2 1 -0.4" rotation="1 0 0 1.57075">
+			<shape>
+				<appearance>
+					<material diffuseColor="0 0 1" />
+				</appearance>
+				<cylinder radius="0.15" height="0.1" />
+			</shape>
+		</transform>
+    <!-- truck de baixo -->
+		<!-- base -->
+		<transform translation="0 -1 0">
+			<shape>
+				<appearance>
+					<material diffuseColor="0 1 0" />
+				</appearance>
+				<box size="0.1 0.5 0.4" />
+			</shape>
+		</transform>
+		<!-- eixo do meio -->
+		<transform translation="0 -1 0" rotation="0 0 1 1.57075">
+			<shape>
+				<appearance>
+					<material diffuseColor="1 1 1" />
+				</appearance>
+				<cylinder radius="0.05" height="0.4" />
+			</shape>
+		</transform>
+		<!-- eixo das rodas -->
+		<transform translation="0.2 -1 0" rotation="1 0 0 1.57075">
+			<shape>
+				<appearance>
+					<material diffuseColor="0 0 1" />
+				</appearance>
+				<cylinder radius="0.05" height="1" />
+			</shape>
+		</transform>
+		<!-- rodinhas -->
+		<transform translation="0.2 -1 0.4" rotation="1 0 0 1.57075">
+			<shape>
+				<appearance>
+					<material diffuseColor="0 0 1" />
+				</appearance>
+				<cylinder radius="0.15" height="0.1" />
+			</shape>
+		</transform>
+		<transform translation="0.2 -1 -0.4" rotation="1 0 0 1.57075">
+			<shape>
+				<appearance>
+					<material diffuseColor="0 0 1" />
+				</appearance>
+				<cylinder radius="0.15" height="0.1" />
+			</shape>
+		</transform>
+	</scene>
+</X3D>
