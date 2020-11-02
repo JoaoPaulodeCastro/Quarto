@@ -1,16 +1,10 @@
-<html>
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Beliche</title>
-    <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js%27%3E'></script>
-    <link rel=' stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css%27%3E'>
-</head>
-
-<body style="background-color: black;">
-    <x3d width=' 800px' height='500px'>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+	<head>
+		<meta name="filename" content="beliche.x3d" />
+	</head>
         <scene>
-          <Viewpoint position="23.30398 1.60530 8.11347" orientation="0.01814 0.99254 0.12054 1.54807" description="camera">
-        </Viewpoint>
         <!-- Começo pés -->
             <transform>
                 <shape>
@@ -278,8 +272,170 @@
             </transform>
 
             <!-- Fim tábuas trás -->
-        </scene>
-    </x3d>
-</body>
 
-</html>
+            <!-- Tábuas de sustentação do colchão cima -->
+            <transform rotation='0 1 0 1.57075' translation='-3.5 1.5989 1'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 1.5989 2.3'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 1.5989 3.6'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 1.5989 4.9'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 1.5989 6.2'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 1.5989 7.5'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 1.5989 8.8'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 1.5989 10.1'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 1.5989 11.3'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+            <!-- fim sustentação cima -->
+
+            <!-- começo sustentação baixo -->
+            <transform rotation='0 1 0 1.57075' translation='-3.5 -2.911 1'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 -2.911 2.3'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 -2.911 3.6'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 -2.911 4.9'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 -2.911 6.2'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 -2.911 7.5'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 -2.911 8.8'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 -2.911 10.1'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+
+            <transform rotation='0 1 0 1.57075' translation='-3.5 -2.911 11.3'>
+              <shape>
+                <appearance>
+                  <material diffuseColor='blue'/>
+                </appearance>
+                <box size='1 0.2 7.14'>
+              </shape>
+            </transform>
+        </scene>
+    </X3D>

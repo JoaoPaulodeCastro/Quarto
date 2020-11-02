@@ -9,21 +9,21 @@
 		<transform rotation="0 0 1 1.57075" translation="0 1.5 0">
 			<shape>
 				<appearance>
-					<material diffuseColor="1 0 0" />
+					<imageTexture url="./texturas/skate.jpg"></imageTexture>
 				</appearance>
 				<cylinder radius="0.5" height="0.05" />
 			</shape>
 		</transform>
 		<shape>
 			<appearance>
-				<material diffuseColor="1 0 0" />
+				<imageTexture url="./texturas/skate_meio.jpg"></imageTexture>
 			</appearance>
 			<box size="0.05 3 1" />
 		</shape>
 		<transform rotation="0 0 1 1.57075" translation="0 -1.5 0">
 			<shape>
 				<appearance>
-					<material diffuseColor="1 0 0" />
+					<imageTexture url="./texturas/skate.jpg"></imageTexture>
 				</appearance>
 				<cylinder radius="0.5" height="0.05" />
 			</shape>
@@ -33,7 +33,7 @@
 		<transform translation="0 1 0">
 			<shape>
 				<appearance>
-					<material diffuseColor="0 1 0" />
+					<material diffuseColor="white" />
 				</appearance>
 				<box size="0.1 0.5 0.4" />
 			</shape>
@@ -42,7 +42,7 @@
 		<transform translation="0 1 0" rotation="0 0 1 1.57075">
 			<shape>
 				<appearance>
-					<material diffuseColor="1 1 1" />
+					<material diffuseColor="white" />
 				</appearance>
 				<cylinder radius="0.05" height="0.4" />
 			</shape>
@@ -51,7 +51,7 @@
 		<transform translation="0.2 1 0" rotation="1 0 0 1.57075">
 			<shape>
 				<appearance>
-					<material diffuseColor="0 0 1" />
+					<material diffuseColor="white" />
 				</appearance>
 				<cylinder radius="0.05" height="1" />
 			</shape>
@@ -60,7 +60,7 @@
 		<transform translation="0.2 1 0.4" rotation="1 0 0 1.57075">
 			<shape>
 				<appearance>
-					<material diffuseColor="0 0 1" />
+					<material diffuseColor="white" />
 				</appearance>
 				<cylinder radius="0.15" height="0.1" />
 			</shape>
@@ -68,7 +68,7 @@
 		<transform translation="0.2 1 -0.4" rotation="1 0 0 1.57075">
 			<shape>
 				<appearance>
-					<material diffuseColor="0 0 1" />
+					<material diffuseColor="white" />
 				</appearance>
 				<cylinder radius="0.15" height="0.1" />
 			</shape>
@@ -78,7 +78,7 @@
 		<transform translation="0 -1 0">
 			<shape>
 				<appearance>
-					<material diffuseColor="0 1 0" />
+					<material diffuseColor="white" />
 				</appearance>
 				<box size="0.1 0.5 0.4" />
 			</shape>
@@ -87,7 +87,7 @@
 		<transform translation="0 -1 0" rotation="0 0 1 1.57075">
 			<shape>
 				<appearance>
-					<material diffuseColor="1 1 1" />
+					<material diffuseColor="white" />
 				</appearance>
 				<cylinder radius="0.05" height="0.4" />
 			</shape>
@@ -96,7 +96,7 @@
 		<transform translation="0.2 -1 0" rotation="1 0 0 1.57075">
 			<shape>
 				<appearance>
-					<material diffuseColor="0 0 1" />
+					<material diffuseColor="white" />
 				</appearance>
 				<cylinder radius="0.05" height="1" />
 			</shape>
@@ -105,7 +105,7 @@
 		<transform translation="0.2 -1 0.4" rotation="1 0 0 1.57075">
 			<shape>
 				<appearance>
-					<material diffuseColor="0 0 1" />
+					<material diffuseColor="white" />
 				</appearance>
 				<cylinder radius="0.15" height="0.1" />
 			</shape>
@@ -113,7 +113,7 @@
 		<transform translation="0.2 -1 -0.4" rotation="1 0 0 1.57075">
 			<shape>
 				<appearance>
-					<material diffuseColor="0 0 1" />
+					<material diffuseColor="white" />
 				</appearance>
 				<cylinder radius="0.15" height="0.1" />
 			</shape>

@@ -18,18 +18,18 @@
             <!-- paredes -->
             <transform>
                 <shape>
-                    <appearance>
-                        <material diffuseColor='yellow' />
-                    </appearance>
-                    <box size='10 5 0.1'>
-                    </box>
+                  <appearance>
+                    <imageTexture url="./texturas/parede.jpg"></imageTexture>
+                  </appearance>
+                  <box size='10 5 0.1'>
+                  </box>
                 </shape>
             </transform>
 
             <transform translation='5 0 5' rotation='0 1 0 1.57075'>
                 <shape>
                     <appearance>
-                        <material diffuseColor='yellow' />
+                        <imageTexture url="./texturas/parede.jpg"></imageTexture>
                     </appearance>
                     <box size='10 5 0.1'>
                     </box>
@@ -39,7 +39,7 @@
             <transform translation='-5 0 5' rotation='0 1 0 1.57075'>
                 <shape>
                     <appearance>
-                        <material diffuseColor='yellow' />
+                        <imageTexture url="./texturas/parede.jpg"></imageTexture>
                     </appearance>
                     <box size='10 5 0.1'>
                     </box>
@@ -48,7 +48,7 @@
             <transform translation='0 2.5 5' rotation='1 0 0 1.57075'>
                 <shape>
                     <appearance>
-                        <material diffuseColor='yellow' />
+                        <imageTexture url="./texturas/teto.jpg"></imageTexture>
                     </appearance>
                     <box size='10 10 0.1'>
                     </box>
@@ -58,7 +58,7 @@
             <transform translation='0 -2.5 5' rotation='1 0 0 1.57075'>
                 <shape>
                     <appearance>
-                        <material diffuseColor='yellow' />
+                        <imageTexture url="./texturas/chão.jpg"></imageTexture>
                     </appearance>
                     <box size='10 10 0.1'>
                     </box>
@@ -69,22 +69,22 @@
             <transform translation='-4.5 0 8.249'>
                 <shape>
                     <appearance>
-                        <material diffuseColor='yellow' />
+                      <imageTexture url="./texturas/parede.jpg"></imageTexture>
                     </appearance>
                     <box size='1 5 3.5'>
                     </box>
                 </shape>
             </transform>
 
-            <!-- import da porta -->
-            <transform scale = '0.5 0.5 0.5' rotation= '0 1 0 1.57075' translation = '4 -0.9 0.1'>
-              <inline nameSpaceName="porta" url="porta.x3d"></inline>
-            </transform>
-
             <transform rotation='0 1 0 3.1415'>
                 <SpotLight id='spot' on="TRUE" beamWidth='0.9' color='1 1 1' cutOffAngle='0.78' location='0 0 7'
-                    radius='19'>
+                    radius='15'>
                 </SpotLight>
+            </transform>
+
+            <!-- imports -->
+            <transform scale = '0.5 0.5 0.5' rotation= '0 1 0 1.57075' translation = '4 -0.9 0.1'>
+              <inline nameSpaceName="porta" url="porta.x3d"></inline>
             </transform>
 
             <transform scale = '0.5 0.5 0.5' translation = '4 0 4'>
@@ -94,6 +94,15 @@
             <transform scale = '0.5 0.5 0.5' translation = '-3.8 -1.48 7' rotation='0 0 1 0.19634375'>
                 <inline nameSpaceName="skate" url="skate.x3d"></inline>
             </transform>
+
+            <transform scale = '1 1 1' rotation= '0 1 0 1.57075'>
+                <inline nameSpaceName="beliche" url="beliche.x3d"></inline>
+            </transform>
+
+
+            <!-- apagar depois -->
+            
+            <!-- fim do apagar depois -->
         </scene>
         <!-- </group> -->
     </x3d>
