@@ -56,5 +56,24 @@
 				<box size='2.5 3.5 0.05'/>
 			</shape>
 		</transform>
+
+		<transform rotation='1 0 0 1.57075' translation='-0.5 0 0.04' >
+					<shape>
+						<appearance>
+							<imageTexture url="./texturas/madeira preta.jpg"></imageTexture>
+							</appearance>
+						<cylinder radius='0.3' height='0.05'></cylinder>
+					</shape>
+			</transform>
+
+			<transform rotation='0 0 1 1.57075' translation='-0.5 0 0.04' >
+				<shape>
+					<appearance>
+						<imageTexture url="./texturas/madeira preta.jpg"></imageTexture>
+						</appearance>
+						<box size='0.2 0.5 0.2'>
+					</box>
+				</shape>
+			</transform>
 	</scene>
 </X3D>
