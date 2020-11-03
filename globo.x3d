@@ -14,7 +14,7 @@
 		<transform translation="0 -1 0">
 			<shape>
 				<appearance>
-					<material diffuseColor="0 1 0" />
+				 <imageTexture url='./texturas/ferrugem.jpg'></imageTexture>
 				</appearance>
 				<cone bottomRadius="0.2" height="1" />
 			</shape>

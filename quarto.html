@@ -8,13 +8,14 @@
 </head>
 
 <body style="background-color: black;">
-    <x3d width=' 1300px' height='620px'>
+    <x3d width=' 1300px' height='615px'>
         <!-- <group def='es_quarto'> -->
         <!-- Estrutura do quarto -->
         <scene>
             <Viewpoint id="1" position="-0.16233 -0.52708 13.67738" orientation="0.99987 0.00021 -0.01611 0.10637"
                 description="camera">
             </Viewpoint>
+            <Viewpoint id="comodap"position="3.12818 -0.74370 4.71419" orientation="0.00070 0.99923 -0.03919 1.49233" description="camera"></Viewpoint>
             <!-- paredes -->
             <transform>
                 <shape>
@@ -87,7 +88,7 @@
               <inline nameSpaceName="porta" url="porta.x3d"></inline>
             </transform>
 
-            <transform scale = '0.5 0.5 0.5' translation = '4 0 4'>
+            <transform scale = '0.5 0.5 0.5' translation = '4 0.2 7'>
                 <inline nameSpaceName="globo" url="globo.x3d"></inline>
             </transform>
 
@@ -96,17 +97,25 @@
             </transform>
 
             <transform scale = '1 1 1' rotation= '0 1 0 1.57075'>
-                <inline nameSpaceName="beliche" url="beliche.x3d"></inline>
+                <inline nameSpaceName="cama" url="camab.x3d"></inline>
             </transform>
 
+            <transform scale ='0.5 0.5 0.5' rotation='0 -1 0 1.57075' translation='5 -1.5 8.2'>
+              <inline nameSpaceName="comoda1" url='comodag.x3d'></inline>
+            </transform>
+
+            <transform scale = '0.5 0.5 0.5' translation = '-4 -1.5 6.48' rotation='0 0 0.19634375'>
+                <inline nameSpaceName="skate" url="comodap.x3d"></inline>
+            </transform>
 
             <!-- apagar depois -->
-            
+
             <!-- fim do apagar depois -->
         </scene>
         <!-- </group> -->
     </x3d>
-    <button onclick="document.getElementById('1').setAttribute('set_bind','true');">1</button>
+    <button onclick="document.getElementById('comodap').setAttribute('set_bind','true');">Comoda pequena</button>
+    <button onclick="document.getElementById('1').setAttribute('set_bind','true');">Frente</button>
 </body>
 
 </html>
